@@ -1,7 +1,6 @@
 package apitest.cases;
 
 import apitest.config.TestConfig;
-import apitest.utils.MySQLUtil;
 import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
 import org.apache.http.client.entity.UrlEncodedFormEntity;

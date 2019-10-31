@@ -1,12 +1,25 @@
 ## 基于Java接口测试
 
+## 简介
+
+1.基于Java进行接口测试，使用HttpClient发送请求
+
+2.断言使用testNg进行断言
+
+3.配置使用maven进行配置
+
+4.集成moco，moco接口，在resources目录下`java -jar ./moco-runner-0.11.0-standalone.jar http -p 8888 -c startup1.json`
+
+
+
 ## 运行
+
 * 第一种方式: 右击cases/xxTest文件
 * 第二种方式: 右击testng.xml
 * 打jar包 进入根目录 mvn clean package
 
 ## 查看报告
-右击testng.xml 在test-output下生产index.html
+右击testng.xml 在test-output下生成index.html
 
 ## 项目目录介绍
 
