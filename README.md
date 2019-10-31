@@ -10,7 +10,7 @@
 
 4.集成moco，moco接口，在resources目录下`java -jar ./moco-runner-0.11.0-standalone.jar http -p 8888 -c startup1.json`
 
-
+5.运行testng.xml或者在根目录下mvn clean package 在test-output下生成index.html（测试报告）
 
 ## 运行
 
