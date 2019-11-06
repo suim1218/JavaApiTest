@@ -2,10 +2,6 @@ package apitest.config;
 
 import org.apache.http.client.CookieStore;
 import org.apache.http.client.HttpClient;
-import org.apache.http.impl.client.DefaultHttpClient;
-import org.apache.http.impl.client.HttpClientBuilder;
-
-import java.sql.Connection;
 
 
 public class TestConfig {
