@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+<suite name="接口测试套件">
+
+    <test name="api测试用例">
+        <packages>
+            <package name="apitest.cases.*" />
+        </packages>
+
+        <!--        <classes>-->
+<!--            <class name="apitest.cases.LoginTest">-->
+<!--                <methods>-->
+<!--                    <include name="login"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+    </test>
+
+    <listeners>
+        <listener class-name="apitest.config.ExtentTestNGIReporterListener" />
+    </listeners>
+
+</suite>

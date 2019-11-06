@@ -18,8 +18,11 @@ import org.testng.annotations.Test;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import org.apache.log4j.Logger;
 
 public class LoginTest {
+
+    final static Logger Log = Logger.getLogger(String.valueOf(LoginTest.class));
 
     @BeforeTest(description = "测试准备工作,获取HttpClient对象")
     public void beforeTest() {
@@ -36,6 +39,7 @@ public class LoginTest {
         BasicNameValuePair basicNameValuePair2 = new BasicNameValuePair("password", password);
         params.add(basicNameValuePair1);
         params.add(basicNameValuePair2);
+        Log.info("参数是：【"+params+"】");
 
         //将参数信息添加到方法中
         StringEntity entity = new UrlEncodedFormEntity(params);

@@ -2,9 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ee13aec-31c4-4fec-86c9-a81c4d9ce8cd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/apitest/cases/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaApiTest.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/apitest/cases/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/apitest/cases/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/apitest/config/TestConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/apitest/config/TestConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/apitest/config/ExtentTestNGIReporterListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/apitest/config/ExtentTestNGIReporterListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/JavaApiTest-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/JavaApiTest-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/apitest/cases/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/apitest/cases/LoginTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/apitest/config/ExtentTestNGIReporterListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/apitest/config/ExtentTestNGIReporterListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/testng.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-apitest.cases.LoginTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-apitest.cases.LoginTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/接口测试套件/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/接口测试套件/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/接口测试套件/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/接口测试套件/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/接口测试套件/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/接口测试套件/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/接口测试套件/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/接口测试套件/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/接口测试套件/登录测试用例.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/接口测试套件/登录测试用例.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/接口测试套件/登录测试用例.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire/surefire1318120456512076041tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire/surefire8036626382777956607tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,42 +53,33 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/apitest/cases/LoginTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            <state relative-caret-position="-525">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1135#1150#0" expanded="true" />
+                <element signature="e#1301#1316#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/基本操作说明">
+        <entry file="file://$PROJECT_DIR$/src/main/java/apitest/cases/Hello.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-column="75" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/apitest/utils/SelectUserName.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+            <state relative-caret-position="171">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="11" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/log/apilog.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -65,59 +87,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="35">
-              <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+            <state relative-caret-position="988">
+              <caret line="52" selection-start-line="52" selection-end-line="52" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/apitest/utils/SelectUserNameTest.java">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="38">
+              <caret line="2" column="68" selection-start-line="2" selection-start-column="68" selection-end-line="2" selection-end-column="68" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/apitest/utils/MySQLUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/apitest/config/TestConfig.java">
+        <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.3.6/httpclient-4.3.6.jar!/org/apache/http/impl/client/DefaultHttpClient.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/apitest/config/ExtentTestNGIReporterListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            <state relative-caret-position="190">
+              <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -154,10 +158,16 @@
         <option value="$PROJECT_DIR$/src/main/java/apitest/utils/MySQLUtilTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/apitest/utils/SelectUserNameTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/apitest/utils/SelectUserName.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/main/java/apitest/cases/LoginTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/apitest/config/TestConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/apitest/cases/Weather.java" />
+        <option value="$PROJECT_DIR$/testng.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/apitest/config/ExtentTestNGIReporterListener.java" />
+        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/apitest/cases/Hello.java" />
+        <option value="$PROJECT_DIR$/src/main/java/apitest/cases/LoginTest.java" />
       </list>
     </option>
   </component>
@@ -172,7 +182,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="240" />
     <option name="y" value="130" />
     <option name="width" value="1440" />
@@ -237,6 +247,20 @@
               <item name="apitest" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JavaApiTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaApiTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="apitest" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaApiTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaApiTest" type="462c0819:PsiDirectoryNode" />
+              <item name="test-output" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -246,20 +270,25 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator\Desktop\code\JavaApiTest\src\main\resources" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="apitest.utils" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\code\JavaApiTest\src\main\java\apitest\config" />
       <recent name="C:\Users\Administrator\Desktop\code\JavaApiTest\target" />
       <recent name="C:\Users\Administrator\Desktop\code\JavaApiTest\src\main\resources" />
       <recent name="C:\Users\Administrator\Desktop\code\JavaApiTest" />
       <recent name="C:\Users\Administrator\Desktop\code\JavaApiTest\src\main\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="apitest.utils" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\code\JavaApiTest" />
+      <recent name="C:\Users\Administrator\Desktop\code\JavaApiTest\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -274,39 +303,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTest">
-    <configuration name="MySQLUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="apitest.utils.MySQLUtil" />
+  <component name="RunManager" selected="TestNG.LoginTest (1)">
+    <configuration name="Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="apitest.cases.Hello" />
       <module name="JavaApiTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="apitest.utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SampleController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hello.SampleController" />
-      <module name="JavaApiTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hello.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SelectUserNameTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="apitest.utils.SelectUserNameTest" />
-      <module name="JavaApiTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="apitest.utils.*" />
+          <option name="PATTERN" value="apitest.cases.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -324,7 +327,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/Administrator/Desktop/code/JavaApiTest/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaApiTest" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaApiTest" />
       <extension name="coverage">
         <pattern>
@@ -341,13 +354,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaApiTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apitest.cases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="apitest.cases" />
+      <option name="MAIN_CLASS_NAME" value="apitest.cases.LoginTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-Dfile.encoding=utf-8" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Hello" />
+      <item itemvalue="TestNG.C:/Users/Administrator/Desktop/code/JavaApiTest/src/main/resources/testng.xml" />
+      <item itemvalue="TestNG.C:/Users/Administrator/Desktop/code/JavaApiTest/testng.xml" />
+      <item itemvalue="TestNG.LoginTest" />
+      <item itemvalue="TestNG.LoginTest (1)" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LoginTest (1)" />
+        <item itemvalue="Application.Hello" />
+        <item itemvalue="TestNG.C:/Users/Administrator/Desktop/code/JavaApiTest/testng.xml" />
         <item itemvalue="TestNG.LoginTest" />
         <item itemvalue="TestNG.C:/Users/Administrator/Desktop/code/JavaApiTest/src/main/resources/testng.xml" />
-        <item itemvalue="Application.SelectUserNameTest" />
-        <item itemvalue="Application.MySQLUtil" />
-        <item itemvalue="Application.SampleController" />
       </list>
     </recent_temporary>
   </component>
@@ -365,42 +411,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoginTest - 2019.10.31 at 11h 57m 10s.xml">
+    <history-entry file="LoginTest - 2019.11.06 at 13h 40m 11s.xml">
       <configuration name="LoginTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Administrator_Desktop_code_JavaApiTest_src_main_resources_testng_xml - 2019.10.31 at 11h 59m 19s.xml">
-      <configuration name="C:/Users/Administrator/Desktop/code/JavaApiTest/src/main/resources/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginTest - 2019.10.31 at 13h 51m 00s.xml">
+    <history-entry file="LoginTest - 2019.11.06 at 13h 40m 27s.xml">
       <configuration name="LoginTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginTest - 2019.10.31 at 13h 54m 17s.xml">
+    <history-entry file="LoginTest - 2019.11.06 at 13h 43m 28s.xml">
       <configuration name="LoginTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginTest - 2019.10.31 at 15h 23m 29s.xml">
-      <configuration name="LoginTest" configurationId="TestNG" />
+    <history-entry file="LoginTest_(1) - 2019.11.06 at 13h 54m 49s.xml">
+      <configuration name="LoginTest (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginTest - 2019.10.31 at 15h 25m 23s.xml">
-      <configuration name="LoginTest" configurationId="TestNG" />
+    <history-entry file="C__Users_Administrator_Desktop_code_JavaApiTest_testng_xml - 2019.11.06 at 13h 56m 12s.xml">
+      <configuration name="C:/Users/Administrator/Desktop/code/JavaApiTest/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginTest - 2019.10.31 at 15h 25m 43s.xml">
-      <configuration name="LoginTest" configurationId="TestNG" />
+    <history-entry file="LoginTest_(1) - 2019.11.06 at 14h 21m 40s.xml">
+      <configuration name="LoginTest (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Administrator_Desktop_code_JavaApiTest_src_main_resources_testng_xml - 2019.10.31 at 15h 26m 27s.xml">
-      <configuration name="C:/Users/Administrator/Desktop/code/JavaApiTest/src/main/resources/testng.xml" configurationId="TestNG" />
+    <history-entry file="LoginTest_(1) - 2019.11.06 at 14h 22m 20s.xml">
+      <configuration name="LoginTest (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginTest - 2019.10.31 at 16h 00m 33s.xml">
-      <configuration name="LoginTest" configurationId="TestNG" />
+    <history-entry file="C__Users_Administrator_Desktop_code_JavaApiTest_testng_xml - 2019.11.06 at 14h 25m 47s.xml">
+      <configuration name="C:/Users/Administrator/Desktop/code/JavaApiTest/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Administrator_Desktop_code_JavaApiTest_src_main_resources_testng_xml - 2019.10.31 at 16h 00m 59s.xml">
-      <configuration name="C:/Users/Administrator/Desktop/code/JavaApiTest/src/main/resources/testng.xml" configurationId="TestNG" />
+    <history-entry file="LoginTest_(1) - 2019.11.06 at 14h 30m 37s.xml">
+      <configuration name="LoginTest (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTest_(1) - 2019.11.06 at 14h 36m 48s.xml">
+      <configuration name="LoginTest (1)" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23324397" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26340482" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -409,12 +455,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.28895184" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.36827195" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" x="22" y="296" width="1492" height="232" id="Terminal" order="7" visible="true" weight="0.3281471" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50067025" side_tool="true" weight="0.32956153" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
@@ -427,6 +473,9 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -451,13 +500,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/hello/SampleController.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/properties" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/startupPost.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -469,23 +511,8 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/SQLMapper.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/apitest/utils/DatabaseUtil.java" />
     <entry file="file://$PROJECT_DIR$/target/classes/apitest/utils/DatabaseUtil.class" />
-    <entry file="file://$PROJECT_DIR$/target/classes/apitest/config/ExtentTestNGIReporterListener.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#0#9167#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/apitest/cases/LoginTest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/apitest/config/ExtentTestNGIReporterListener.class" />
+    <entry file="file://$PROJECT_DIR$/target/classes/apitest/cases/LoginTest.class" />
     <entry file="file://$PROJECT_DIR$/src/main/java/apitest/utils/VisitMySql.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/sql/Connection.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -496,13 +523,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/apitest/utils/MySQLUtilTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/databaseConfig.xml" />
-    <entry file="file://$PROJECT_DIR$/target/classes/apitest/config/TestConfig.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/apitest/config/TestConfig.class" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/基本操作说明">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -510,20 +531,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/apitest/cases/Weather.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/apitest/utils/SelectUserName.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+        <state relative-caret-position="133">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test-output/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2432">
+          <caret line="40" column="44" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/apitest/utils/SelectUserNameTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="95">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -537,38 +573,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/apitest/config/ExtentTestNGIReporterListener.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/apitest/config/TestConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        <state relative-caret-position="152">
+          <caret line="13" column="57" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.3.6/httpclient-4.3.6.jar!/org/apache/http/impl/client/DefaultHttpClient.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        <state relative-caret-position="912">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/apitest/config/ExtentTestNGIReporterListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1957">
+          <caret line="115" column="51" selection-start-line="115" selection-start-column="51" selection-end-line="115" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="32" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/apilog.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/apilog.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="988">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="68" selection-start-line="2" selection-start-column="68" selection-end-line="2" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+        <state relative-caret-position="-1190">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/apitest/config/TestConfig.java">
+    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+        <state relative-caret-position="190">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/apitest/cases/Hello.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="11" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -577,11 +673,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/apitest/cases/LoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        <state relative-caret-position="-525">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1135#1150#0" expanded="true" />
+            <element signature="e#1301#1316#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -589,6 +685,74 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>unnamed</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ScopeChooserConfigurable.UI">
         <settings>
           <splitter-proportions>
