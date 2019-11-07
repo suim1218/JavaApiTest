@@ -5,6 +5,7 @@ import apitest.utils.SelectUserName;
 import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
 import org.apache.http.client.entity.UrlEncodedFormEntity;
+import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.HttpClientBuilder;
@@ -49,7 +50,7 @@ public class LoginTest {
         try {
             post.setEntity(entity);
             //声明一个对象来进行响应结果的存储
-            HttpResponse response = TestConfig.client.execute(post);
+            CloseableHttpResponse response = TestConfig.client.execute(post);
             //获取响应结果将格式转化为Json数据
             String response2 = EntityUtils.toString(response.getEntity(), "utf-8");
             JSONObject responseJson = new JSONObject(response2);

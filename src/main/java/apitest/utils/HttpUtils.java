@@ -1,13 +1,11 @@
 package apitest.utils;
 
-import apitest.config.TestConfig;
-import org.apache.http.HttpResponse;
-import org.apache.http.NameValuePair;
+
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.entity.UrlEncodedFormEntity;
+import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
-import org.apache.http.client.utils.URLEncodedUtils;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.HttpClientBuilder;
 import org.apache.http.util.EntityUtils;
@@ -33,7 +31,7 @@ public class HttpUtils {
         try {
             httpPost.setEntity(new UrlEncodedFormEntity(params));
             //声明一个对象来进行响应结果的存储
-            HttpResponse response = client.execute(httpPost);
+            CloseableHttpResponse response = (CloseableHttpResponse) client.execute(httpPost);
             //获取响应结果将格式转化为String数据
             result = EntityUtils.toString(response.getEntity(), "utf-8");
 
@@ -55,7 +53,7 @@ public class HttpUtils {
             httpPost.setEntity(new StringEntity(params.toString(),"utf-8"));
 //            System.out.println(params.getClass());
             //声明一个对象来进行响应结果的存储
-            HttpResponse response = client.execute(httpPost);
+            CloseableHttpResponse response = (CloseableHttpResponse) client.execute(httpPost);
             //获取响应结果将格式转化为String数据
             result = EntityUtils.toString(response.getEntity(), "utf-8");
 
@@ -76,7 +74,7 @@ public class HttpUtils {
         try {
             httpGet.setURI(new URI(url));
             //声明一个对象来进行响应结果的存储
-            HttpResponse response = client.execute(httpGet);
+            CloseableHttpResponse response = (CloseableHttpResponse) client.execute(httpGet);
             //获取响应结果将格式转化为String数据
             result = EntityUtils.toString(response.getEntity(), "utf-8");
 

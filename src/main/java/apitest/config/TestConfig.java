@@ -2,6 +2,7 @@ package apitest.config;
 
 import org.apache.http.client.CookieStore;
 import org.apache.http.client.HttpClient;
+import org.apache.http.impl.client.CloseableHttpClient;
 
 
 public class TestConfig {
@@ -20,7 +21,9 @@ public class TestConfig {
 
     //声明http客户端
 //    public static DefaultHttpClient defaultHttpClient;
-    public static HttpClient client;
+//    public static HttpClient client;
+    public static CloseableHttpClient client;
+
     // 数据库配置
     public static String JDBC_DRIVER = "com.mysql.jdbc.Driver";
     public static String DB_URL = "jdbc:mysql://localhost:3306/blog";
