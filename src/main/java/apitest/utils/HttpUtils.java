@@ -1,16 +1,15 @@
 package apitest.utils;
 
 
-import org.apache.http.client.HttpClient;
+import apitest.config.TestConfig;
 import org.apache.http.client.entity.UrlEncodedFormEntity;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.entity.StringEntity;
-import org.apache.http.impl.client.HttpClientBuilder;
+import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.util.EntityUtils;
 import org.json.JSONObject;
-
 import java.net.URI;
 import java.util.List;
 
@@ -24,14 +23,17 @@ public class HttpUtils {
     public static String postListParams(List params, String url){
         // 接口响应数据
         String result = "";
-        // 创建HttpClient对象
-        HttpClient client = HttpClientBuilder.create().build();
+        // 创建CloseableHttpClient对象
+        CloseableHttpClient client = TestConfig.client;
+
+        // 创建CloseableHttpResponse对象
+        CloseableHttpResponse response;
         // 创建HttpPost对象，以post方式提交接口请求
         HttpPost httpPost = new HttpPost(url);
         try {
             httpPost.setEntity(new UrlEncodedFormEntity(params));
             //声明一个对象来进行响应结果的存储
-            CloseableHttpResponse response = (CloseableHttpResponse) client.execute(httpPost);
+            response = client.execute(httpPost);
             //获取响应结果将格式转化为String数据
             result = EntityUtils.toString(response.getEntity(), "utf-8");
 
@@ -44,8 +46,13 @@ public class HttpUtils {
     public static String postJsonParams(JSONObject params, String url){
         // 接口响应数据
         String result = "";
-        // 创建HttpClient对象
-        HttpClient client = HttpClientBuilder.create().build();
+
+        // 创建CloseableHttpClient对象
+        CloseableHttpClient client = TestConfig.client;
+
+        // 创建CloseableHttpResponse对象
+        CloseableHttpResponse response;
+
         // 创建HttpPost对象，以post方式提交接口请求
         HttpPost httpPost = new HttpPost(url);
         httpPost.setHeader("content-type","application/json");
@@ -53,7 +60,7 @@ public class HttpUtils {
             httpPost.setEntity(new StringEntity(params.toString(),"utf-8"));
 //            System.out.println(params.getClass());
             //声明一个对象来进行响应结果的存储
-            CloseableHttpResponse response = (CloseableHttpResponse) client.execute(httpPost);
+            response = client.execute(httpPost);
             //获取响应结果将格式转化为String数据
             result = EntityUtils.toString(response.getEntity(), "utf-8");
 
@@ -65,16 +72,19 @@ public class HttpUtils {
     public static String doGet(String params, String url){
         // 接口响应数据
         String result = "";
-        // 创建HttpClient对象
-        HttpClient client = HttpClientBuilder.create().build();
-        // 创建HttpPost对象，以post方式提交接口请求
+        // 创建CloseableHttpClient对象
+        CloseableHttpClient client = TestConfig.client;
+
+        // 创建CloseableHttpResponse对象
+        CloseableHttpResponse response;
+
         HttpGet httpGet = new HttpGet();
         url +=("?"+params);
 //        System.out.println(url);
         try {
             httpGet.setURI(new URI(url));
             //声明一个对象来进行响应结果的存储
-            CloseableHttpResponse response = (CloseableHttpResponse) client.execute(httpGet);
+            response = client.execute(httpGet);
             //获取响应结果将格式转化为String数据
             result = EntityUtils.toString(response.getEntity(), "utf-8");
 

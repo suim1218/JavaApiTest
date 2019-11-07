@@ -2,7 +2,9 @@ package apitest.config;
 
 import org.apache.http.client.CookieStore;
 import org.apache.http.client.HttpClient;
+import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.impl.client.CloseableHttpClient;
+import org.apache.http.impl.client.HttpClientBuilder;
 
 
 public class TestConfig {
@@ -22,7 +24,8 @@ public class TestConfig {
     //声明http客户端
 //    public static DefaultHttpClient defaultHttpClient;
 //    public static HttpClient client;
-    public static CloseableHttpClient client;
+    public static CloseableHttpClient client = HttpClientBuilder.create().build();
+//    public static CloseableHttpResponse response = null;
 
     // 数据库配置
     public static String JDBC_DRIVER = "com.mysql.jdbc.Driver";

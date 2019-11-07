@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ee13aec-31c4-4fec-86c9-a81c4d9ce8cd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/apitest/cases/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/apitest/cases/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/apilog.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/apilog.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/apitest/config/TestConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/apitest/config/TestConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/apitest/utils/HttpUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/apitest/utils/HttpUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,7 +24,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/apitest/cases/PostTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
+            <state relative-caret-position="865">
               <caret line="67" selection-start-line="67" selection-end-line="67" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -34,8 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/apitest/utils/HttpUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-788">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            <state relative-caret-position="-997">
+              <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,7 +72,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/apitest/cases/GetTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="456">
-              <caret line="33" column="38" lean-forward="true" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+              <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,8 +83,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/apitest/utils/MySQLUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+            <state relative-caret-position="-161">
+              <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,8 +95,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/apitest/config/TestConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+            <state relative-caret-position="149">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,8 +116,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/apitest/cases/LoginTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="52" column="33" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="33" />
+            <state relative-caret-position="162">
+              <caret line="52" column="62" selection-start-line="52" selection-start-column="56" selection-end-line="52" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -179,9 +181,9 @@
         <option value="$PROJECT_DIR$/src/main/java/apitest/cases/PostTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/apitest/utils/SelectUserName.java" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/main/java/apitest/config/TestConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/apitest/cases/LoginTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/apitest/utils/HttpUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/apitest/config/TestConfig.java" />
       </list>
     </option>
   </component>
@@ -432,18 +434,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__Users_Administrator_Desktop_code_JavaApiTest_testng_xml - 2019.11.07 at 14h 19m 33s.xml">
-      <configuration name="C:/Users/Administrator/Desktop/code/JavaApiTest/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Administrator_Desktop_code_JavaApiTest_testng_xml - 2019.11.07 at 14h 24m 09s.xml">
-      <configuration name="C:/Users/Administrator/Desktop/code/JavaApiTest/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Administrator_Desktop_code_JavaApiTest_testng_xml - 2019.11.07 at 14h 25m 40s.xml">
-      <configuration name="C:/Users/Administrator/Desktop/code/JavaApiTest/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Administrator_Desktop_code_JavaApiTest_testng_xml - 2019.11.07 at 14h 30m 00s.xml">
-      <configuration name="C:/Users/Administrator/Desktop/code/JavaApiTest/testng.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="C__Users_Administrator_Desktop_code_JavaApiTest_testng_xml - 2019.11.07 at 14h 30m 52s.xml">
       <configuration name="C:/Users/Administrator/Desktop/code/JavaApiTest/testng.xml" configurationId="TestNG" />
     </history-entry>
@@ -462,6 +452,18 @@
     <history-entry file="LoginTest_login - 2019.11.07 at 15h 01m 32s.xml">
       <configuration name="LoginTest.login" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="C__Users_Administrator_Desktop_code_JavaApiTest_testng_xml - 2019.11.07 at 16h 00m 24s.xml">
+      <configuration name="C:/Users/Administrator/Desktop/code/JavaApiTest/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Administrator_Desktop_code_JavaApiTest_testng_xml - 2019.11.07 at 16h 17m 36s.xml">
+      <configuration name="C:/Users/Administrator/Desktop/code/JavaApiTest/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Administrator_Desktop_code_JavaApiTest_testng_xml - 2019.11.07 at 16h 22m 47s.xml">
+      <configuration name="C:/Users/Administrator/Desktop/code/JavaApiTest/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Administrator_Desktop_code_JavaApiTest_testng_xml - 2019.11.07 at 16h 26m 55s.xml">
+      <configuration name="C:/Users/Administrator/Desktop/code/JavaApiTest/testng.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -476,7 +478,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.21074964" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.37677053" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -675,16 +677,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/apitest/utils/MySQLUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -726,16 +718,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/apitest/config/TestConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.3.3/httpcore-4.3.3.jar!/org/apache/http/HttpResponse.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -743,20 +725,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/apitest/cases/LoginTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/apitest/cases/GetTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="52" column="33" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="33" />
+        <state relative-caret-position="456">
+          <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/apitest/cases/GetTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/apitest/utils/MySQLUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="33" column="38" lean-forward="true" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+        <state relative-caret-position="-161">
+          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/apitest/config/TestConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/apitest/cases/LoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="52" column="62" selection-start-line="52" selection-start-column="56" selection-end-line="52" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -765,7 +767,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/apitest/cases/PostTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
+        <state relative-caret-position="865">
           <caret line="67" selection-start-line="67" selection-end-line="67" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -775,8 +777,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/apitest/utils/HttpUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-788">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="-997">
+          <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
