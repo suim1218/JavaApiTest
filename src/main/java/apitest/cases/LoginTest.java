@@ -1,6 +1,7 @@
 package apitest.cases;
 
 import apitest.config.TestConfig;
+import apitest.utils.SelectUserName;
 import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
 import org.apache.http.client.entity.UrlEncodedFormEntity;
@@ -18,6 +19,7 @@ import org.testng.annotations.Test;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+
 import org.apache.log4j.Logger;
 
 public class LoginTest {
@@ -39,7 +41,7 @@ public class LoginTest {
         BasicNameValuePair basicNameValuePair2 = new BasicNameValuePair("password", password);
         params.add(basicNameValuePair1);
         params.add(basicNameValuePair2);
-        Log.info("参数是：【"+params+"】");
+        Log.info("参数是：【" + params + "】");
 
         //将参数信息添加到方法中
         StringEntity entity = new UrlEncodedFormEntity(params);
@@ -62,9 +64,11 @@ public class LoginTest {
     // 定义对象数组
     @DataProvider(name = "loginData")
     public Object[][] LoginData() {
+        SelectUserName userName = new SelectUserName();
+        String username = userName.Select();
         return new Object[][]{
-                {"admin", "admin1234561", "login success"},
-                {"admin", "admin1234567", "username or password error"}
+                {username, "admin123456", "login success"},
+                {username, "admin1234567", "username or password error"}
         };
     }
 }

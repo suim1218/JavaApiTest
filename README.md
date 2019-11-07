@@ -2,24 +2,33 @@
 
 ## 简介
 
-1.基于Java进行接口测试，使用HttpClient发送请求，封装get和post请求，post请求支持form-data和json两种格式
+1.基于Java进行接口测试,使用HttpClient发送请求,封装get和post请求,post请求支持form-data和json两种格式,这样定义一个接口方法时，
+只要关注url,参数即可。比如发送使用**post请求**发送form-data格式的参数时调用HttpUtils下面的postListParams方法,发送json格式的参数时
+调用HttpUtils下面的postJsonParams方法,使用**get请求**调用HttpUtils下面的doGet方法。
 
-2.断言使用testNg进行断言，使用testNg进行参数化
 
-3.配置使用maven进行配置
+2.断言使用testNg进行断言，
 
-4.集成moco，moco接口，在resources目录下`java -jar ./moco-runner-0.11.0-standalone.jar http -p 8888 -c startup1.json`
+3.使用testNg进行参数化，参数化的时候可以使用数据库查询的数据
 
-5.运行testng.xml或者在根目录下mvn clean test 在test-output下生成index.html（测试报告）
+4.配置使用maven进行配置
+
+5.集成moco，moco接口，在resources目录下`java -jar ./moco-runner-0.11.0-standalone.jar http -p 8888 -c startup1.json`
+
+6.运行testng.xml或者在根目录下mvn clean test 在test-output下生成index.html（测试报告）
 
 ## 运行
 
-* 第一种方式: 右击cases/xxTest文件
+* 第一种方式: cases/xxTest下进行执行
 * 第二种方式: 右击testng.xml
-* 第二种方式 进入根目录 mvn clean test
+* 第三种方式 进入根目录 mvn clean test
 
 ## 查看报告
-右击testng.xml 在test-output下生成index.html
+
+* 第一种方式: 右击testng.xml
+* 第二种方式 进入根目录 mvn clean test 
+
+在test-output下生成index.html
 
 ## 项目目录介绍
 

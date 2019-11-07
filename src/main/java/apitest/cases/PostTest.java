@@ -65,6 +65,7 @@ public class PostTest {
     // 定义对象数组
     @DataProvider(name = "loginData")
     public Object[][] LoginData() {
+
         return new Object[][]{
                 {"admin", "admin123456", "login success"},
                 {"admin", "admin1234567", "username or password error"}
