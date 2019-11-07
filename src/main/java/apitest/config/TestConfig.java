@@ -7,9 +7,13 @@ import org.apache.http.client.HttpClient;
 public class TestConfig {
 
     //登陆接口uri
-    public static String address = "http://localhost:8001";
+    public static String address = "http://localhost:8002";
     public static String loginUri = "/login";
+    public static String loginUri2 = "/login2";
+    public static String getArticleUri = "/get_article";
     public static String loginUrl = address + loginUri;
+    public static String loginUrl2 = address + loginUri2;
+    public static String getArticleUrl = address + getArticleUri;
 
     //用来存储cookies信息的变量
     public static CookieStore store;
