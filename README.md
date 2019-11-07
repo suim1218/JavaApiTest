@@ -4,7 +4,7 @@
 
 1.基于Java进行接口测试，使用HttpClient发送请求，封装get和post请求，post请求支持form-data和json两种格式
 
-2.断言使用testNg进行断言
+2.断言使用testNg进行断言，使用testNg进行参数化
 
 3.配置使用maven进行配置
 
