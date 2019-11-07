@@ -2,7 +2,7 @@
 
 ## 简介
 
-1.基于Java进行接口测试，使用HttpClient发送请求
+1.基于Java进行接口测试，使用HttpClient发送请求，封装get和post请求，post请求支持form-data和json两种格式
 
 2.断言使用testNg进行断言
 
