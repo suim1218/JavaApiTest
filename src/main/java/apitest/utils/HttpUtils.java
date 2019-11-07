@@ -23,8 +23,6 @@ public class HttpUtils {
     public static String postListParams(List params, String url){
         // 接口响应数据
         String result = "";
-        // 创建CloseableHttpClient对象
-        CloseableHttpClient client = TestConfig.client;
 
         // 创建CloseableHttpResponse对象
         CloseableHttpResponse response;
@@ -33,7 +31,7 @@ public class HttpUtils {
         try {
             httpPost.setEntity(new UrlEncodedFormEntity(params));
             //声明一个对象来进行响应结果的存储
-            response = client.execute(httpPost);
+            response = TestConfig.client.execute(httpPost);
             //获取响应结果将格式转化为String数据
             result = EntityUtils.toString(response.getEntity(), "utf-8");
 
@@ -47,9 +45,6 @@ public class HttpUtils {
         // 接口响应数据
         String result = "";
 
-        // 创建CloseableHttpClient对象
-        CloseableHttpClient client = TestConfig.client;
-
         // 创建CloseableHttpResponse对象
         CloseableHttpResponse response;
 
@@ -60,7 +55,7 @@ public class HttpUtils {
             httpPost.setEntity(new StringEntity(params.toString(),"utf-8"));
 //            System.out.println(params.getClass());
             //声明一个对象来进行响应结果的存储
-            response = client.execute(httpPost);
+            response = TestConfig.client.execute(httpPost);
             //获取响应结果将格式转化为String数据
             result = EntityUtils.toString(response.getEntity(), "utf-8");
 
@@ -72,8 +67,6 @@ public class HttpUtils {
     public static String doGet(String params, String url){
         // 接口响应数据
         String result = "";
-        // 创建CloseableHttpClient对象
-        CloseableHttpClient client = TestConfig.client;
 
         // 创建CloseableHttpResponse对象
         CloseableHttpResponse response;
@@ -84,7 +77,7 @@ public class HttpUtils {
         try {
             httpGet.setURI(new URI(url));
             //声明一个对象来进行响应结果的存储
-            response = client.execute(httpGet);
+            response = TestConfig.client.execute(httpGet);
             //获取响应结果将格式转化为String数据
             result = EntityUtils.toString(response.getEntity(), "utf-8");
 

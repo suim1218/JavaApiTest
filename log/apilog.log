@@ -44,3 +44,5 @@
 2019-11-07 16:26:53 method: apitest.cases.LoginTest.login(LoginTest.java:45)----[ INFO ]----参数是：【[username=admin, password=admin1234567]】
 2019-11-07 16:32:08 method: apitest.cases.LoginTest.login(LoginTest.java:45)----[ INFO ]----参数是：【[username=admin, password=admin123456]】
 2019-11-07 16:32:08 method: apitest.cases.LoginTest.login(LoginTest.java:45)----[ INFO ]----参数是：【[username=admin, password=admin1234567]】
+2019-11-07 16:41:09 method: apitest.cases.LoginTest.login(LoginTest.java:45)----[ INFO ]----参数是：【[username=admin, password=admin123456]】
+2019-11-07 16:41:09 method: apitest.cases.LoginTest.login(LoginTest.java:45)----[ INFO ]----参数是：【[username=admin, password=admin1234567]】
